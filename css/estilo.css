@@ -1,0 +1,201 @@
+body{
+	background-image:url("../imagenes/fondo.jpg"); 
+	color:#FFFFFF; 
+	font-family:Tahoma,"Courier New",monospace; /*fontfamily se utiliza para marcar las posibles tipogrfias que se usaran. se ponen comillas cunado escribes algo que tenga mas de una palabra*/
+	font-size:40px; /*fontsize es el tamaño de la letra se mide en pixeles*/
+}
+p{
+	text-align:left;
+	font-size:20px;
+}
+hr{
+	border:2px solid #FFFFFF; /*border se utiliza para poner una linea*/
+	border-radius:4px;
+	width:80%;
+}
+table,tr,td{ /*podemos agregar varios criterios si los separamos con comas*/
+	border: 1px solid #FFFFFF;
+	border-spacing: 0px;
+	background-color:-;
+	text-align:center;
+	font-size: 20px;
+}
+ul{
+	list-style-type:disc; /*tipo de viñeta disc circle square*/
+	list-style-position:inside; /*para pegar la enumeracion al texto*/
+	width:15%;
+	text-align:left;
+	font-family:Tahoma, monospace;
+	font-size:20px;
+}
+ol{
+	list-style-type:lower-alpha; /*para poner letras minusculas en un listado*/
+	list-style-position:inside;
+	width:18%;
+	text-align:left;
+	font-family:Tahoma, monospace;
+	font-size:20px;
+}
+@font-face{
+	font-family:pookie;
+	src:(../fonts/AGENCYB.ttf);
+}
+.pie{ /*de tarea quitar todos los fonts y eliminar todas las etiquetas*/
+	font-size:12px;
+	font-family:Tahoma,monospace;
+	text-align:center;
+	font-weight:bold;
+}
+.encabezado{
+	font-size:35px;
+	font-family:pookie;
+	text-align:center;
+	font-weight:bold;
+}
+.nosotros-text{
+	text-align: left;
+	font-size: 20px;
+	width: 80%;
+}
+.img-marquee{
+	height:400px;
+	width:-;
+}
+.img-controller{ /*codigo 16 abril index*/
+	height:50px;
+	width:50px;
+}
+.img-productos{
+	height:200px;
+	width:200px;
+}
+.img-lugar{
+	height:400px;
+	width:600px;
+}
+.direccion-text{
+	width:60%;
+	font-family:Tahoma, monospace;
+	font-size:22px;
+	text-align:left;
+}
+.img-productos2{
+	height:200px;
+	width:250px;
+}
+.img-productos3{
+	height:200px;
+	width:400px;
+}
+div#top{
+	font-family:pookie;
+	padding:20px;
+	width:;
+	height:px;
+	background-color:#A33DC1;
+	/*background-image: linear-gradient(#A48449,#D5A027);*/
+}
+div#piediv{
+	padding:14px;
+	width:;
+	height:px;
+	background-color:#A33DC1;
+}
+*{ /*el asterisco marca un cambio aplicable para toda la pagina*/
+	margin:0px;
+}
+div#principal{
+	background-image:url("../imagenes/fondo_op_5.jpg");
+	width:95%;
+	padding:0px;
+}
+div#nosotros{
+	background-color:#A33DC1;
+	width:60.75%;
+}
+.caja{
+	height:330px;
+	width:250px;
+	background:#A33DC1;
+	border:1px solid #A33DC1;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px black;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box; /*hace que el padding y el borde pasen a formar parte del calculo de la caja y no de la suma*/
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden; /*hace que el navegador oculte todos los contenidos que se salgan del div*/
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	position:relative; /*la nueva posicion del elemento en relacion de un elemento con su posicion normal*/
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	position:absolute; /*hace que un elemento se coloque con respecto a su contenedor posicionado mas cercano*/
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;
+}
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows>a>i{
+	color:white;
+}
+div#productos{
+	font-size:28px;
+	font-family:Tahoma, monospace;
+	width:50%;
+	text-align:left;
+	background-color:#A33DC1;
+}
+/*vamos a realizar una copia del codigo de index, vamos a cambiar las imagenes a las que corresponden para cada producto, todo esto en una pagina nueva
+ademas de esto vamos a agragar una descripcion detallada en la parte de abajo*/
